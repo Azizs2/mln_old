@@ -27,7 +27,7 @@ class ContactFormController extends Controller
         ContactForm::create($request->all());
 
         // Kirim email notifikasi
-        // Mail::to('sa@majulokalnusantara.com')->send(new ContactFormNotification($request->all()));
+        Mail::to('malon@majulokalnusantara.com')->send(new ContactFormNotification($request->all()));
 
         // Tambahkan flash message
         Session::flash('success', 'Form submitted successfully! Email has been sent.');
