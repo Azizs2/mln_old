@@ -224,6 +224,13 @@ strong {
     object-fit: cover;
 }
 
+.custom-block-image-product {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 .custom-block .custom-btn {
     border-radius: 0;

@@ -52,6 +52,9 @@ Route::get('/breaking_news', function () {
 Route::get('/post1', function () {
     return view('allnews.post1');
 });
+Route::get('/post2', function () {
+    return view('allnews.post2');
+});
 Route::get('/donate', function () {
     return view('donate');
 });
