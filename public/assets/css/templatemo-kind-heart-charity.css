@@ -315,6 +315,12 @@ strong {
     object-fit: cover;
 }
 
+.avatar-image_2 {
+    border-radius: var(--border-radius-large);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
 
 /*---------------------------------------
   CUSTOM BUTTON

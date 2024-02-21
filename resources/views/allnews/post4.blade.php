@@ -28,7 +28,7 @@
                                     <div class="news-block-date">
                                         <p>
                                             <i class="bi-calendar4 custom-icon me-1"></i>
-                                            January 26, 2024
+                                            February 20, 2024
                                         </p>
                                     </div>
 
@@ -41,21 +41,21 @@
                                 </div>
 
                                 <div class="news-block-title mb-2">
-                                    <h4>Nutritional Bounty of Panami Shrimp</h4>
+                                    <h4>Lobster: Delicious, Rare, and Beneficial</h4>
                                 </div>
 
                                 <div class="news-block-body">
                                     <p>
-                                        <strong>Panami shrimp, or Vannamei</strong>
-                                        is a species of shrimp found in many Indonesian waters. It is popular in the
-                                        aquaculture world for its fast growth, high meat quality, and resistance to certain
-                                        diseases.
+                                        Hello, Seafood Lovers! Who doesn't love seafood, especially lobster? Lobster is
+                                        indeed a champion in tantalizing the taste buds. But, did you know that lobster is
+                                        not only delicious but also has incredible health benefits? Let's read this article
+                                        to the end!
                                     </p>
                                 </div>
 
                                 <div class="row mt-5 mb-4">
                                     <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                                        <img src="{{ asset('assets/images/Products/vaname_1.png') }}"
+                                        <img src="{{ asset('assets/images/Products/lobster_1.png') }}"
                                             class="news-detail-image img-fluid" alt="">
                                     </div>
 
@@ -66,52 +66,31 @@
                                 </div>
 
                                 <p>
-                                    <strong>Nutritional Content of Panami Shrimp</strong>
-                                <p>
-                                    The nutritional content in 100 grams of raw panami shrimp is as follows
-                                <ol>
-                                    <li>Water: 75.0 grams</li>
-                                    <li>
-                                        Calorie: 91 kcal</li>
-                                    <li>
-                                        Protein: 21.0 grams</li>
-                                    <li>
-                                        Fat: 0.2 grams</li>
-                                    <li>
-                                        Carbohydrate: 0.1 gram</li>
-                                    <li>
-                                        Fiber: 0.0 gram</li>
-                                    <li>
-                                        Calcium: 136 mg</li>
-
-                                </ol>
+                                    <strong>Rare Delicacy</strong>
                                 </p>
-                                <p><strong>Benefits of nutritional content contained in panami shrimp</strong>
-                                <ol>
-                                    <li>High protein in panami shrimp can help build and repair body tissues, and maintain
-                                        healthy muscles and bones.</li>
-                                    <li>
-                                        Selenium content in panami shrimp can help maintain a healthy immune system and
-                                        prevent cell damage due to free radicals.</li>
-                                    <li>
-                                        Phosphorus in panami shrimp can help maintain healthy bones and teeth, and help
-                                        the body's cells and tissues function.</li>
-                                    <li>
-                                        Vitamin B12 in panami shrimp can help maintain a healthy nervous system and red
-                                        blood cell formation.</li>
-                                    <li>
-                                        Omega-3 fatty acids in panami shrimp can help maintain a healthy heart and blood
-                                        vessels, and help reduce inflammation in the body.</li>
-
-                                </ol>
-                                </p>
-                                <p><strong>How to Properly Process Panami Shrimp</strong></p>
                                 <p>
-
-                                    Proper processing of panami shrimp
-                                    includes steps such as cleaning, peeling, and hygienic storage. One of the common ways
-                                    to process panami shrimp is by cooking, frying, or steaming according to the desired
-                                    recipe.
+                                    Lobster is known as a luxurious food that always makes the mouth water. Its tender and
+                                    sweet meat is irresistible to anyone. No wonder lobster is often the favorite in
+                                    expensive restaurants. But, apart from being delicious, lobster also has health benefits
+                                    that should not be underestimated!
+                                </p>
+                                <p><strong>Amazing Health Benefits</strong></p>
+                                <p>
+                                    It turns out that lobster is rich in high-quality protein and low in fat. So, for those
+                                    on a high-protein diet, lobster can be a good choice. In addition, lobster also contains
+                                    important minerals such as selenium, copper, zinc, phosphorus, and magnesium, which are
+                                    good for the body's health. So, it's not just delicious, but also healthy!
+                                </p>
+                                <p><strong>Lobster: Prohibitions and Uniqueness</strong></p>
+                                <p>Apparently, lobsters also have unique aspects. Some rare lobster species are even
+                                    protected because of their unique colors. For example, there is a bright yellow crystal
+                                    lobster that is super rare. In addition, there is also a prohibition on consuming
+                                    lobster during the Chinese New Year celebration, but certain parts of this lobster are
+                                    claimed to prevent deadly diseases. Who would have thought, right?
+                                </p>
+                                <p>So, that's a little story about lobster. In addition to tantalizing the taste buds,
+                                    lobster also has health benefits that should not be ignored. So, when else can you try
+                                    lobster and enjoy its deliciousness while benefiting your health? Enjoy, Seafood Lovers!
                                 </p>
 
                             </div>
@@ -138,24 +117,6 @@
                             </div>
                         </div>
 
-                        <div class="news-block news-block-two-col d-flex mt-4">
-
-
-                            <div class="news-block-two-col-info">
-                                <div class="news-block-title mb-2">
-                                    <h6><a href="{{ url('post4') }}" class="news-block-title-link">Lobster: Delicious,
-                                            Rare,
-                                            and Beneficial</a></h6>
-                                </div>
-
-                                <div class="news-block-date">
-                                    <p>
-                                        <i class="bi-calendar4 custom-icon me-1"></i>
-                                        February 20, 2024
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="news-block news-block-two-col d-flex mt-4">
 
@@ -174,7 +135,28 @@
                             </div>
                         </div>
 
+                        <div class="news-block news-block-two-col d-flex mt-4">
+                            {{-- <div class="news-block-two-col-image-wrap">
+                                <a href="{{ url('post2') }}">
+                                    <img src="{{ asset('assets/images/Products/vaname_1.png') }}" class="news-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div> --}}
 
+                            <div class="news-block-two-col-info">
+                                <div class="news-block-title mb-2">
+                                    <h6><a href="{{ url('post2') }}" class="news-block-title-link">Nutritional Bounty of
+                                            Panami Shrimp</a></h6>
+                                </div>
+
+                                <div class="news-block-date">
+                                    <p>
+                                        <i class="bi-calendar4 custom-icon me-1"></i>
+                                        January 26, 2024
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

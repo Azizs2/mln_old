@@ -277,6 +277,10 @@
                                     <img src="{{ asset('assets/images/Products/tongkol_2.png') }}" alt="Gambar 2"
                                         height="200" width="100%">
                                 </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('assets/images/Products/tongkol_3.png') }}" alt="Gambar 2"
+                                        height="200" width="100%">
+                                </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExample" role="button"
                                 data-bs-slide="prev">

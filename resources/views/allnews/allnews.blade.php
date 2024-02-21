@@ -103,9 +103,9 @@
 
                 <div class="news-block mt-3">
                     <div class="news-block-top">
-                        <a href="{{ url('post1') }}">
-                            <img src="{{ asset('assets/images/Products/cakalang_3.png') }}" class="news-image img-fluid"
-                                alt="">
+                        <a href="{{ url('post3') }}">
+                            <img src="{{ asset('assets/images/Products/MadeInIndonesia.jpg') }}"
+                                class="news-image img-fluid" alt="">
                         </a>
                     </div>
 
@@ -114,7 +114,7 @@
                             <div class="news-block-date">
                                 <p>
                                     <i class="bi-calendar4 custom-icon me-1"></i>
-                                    January 26, 2024
+                                    February 20, 2024
                                 </p>
                             </div>
 
@@ -127,13 +127,15 @@
                         </div>
 
                         <div class="news-block-title mb-2">
-                            <h4><a href="{{ url('post1') }}" class="news-block-title-link">Tuna Healty Benefits of
-                                    Tuna</a></h4>
+                            <h4><a href="{{ url('post3') }}" class="news-block-title-link">From Local to Global</a>
+                            </h4>
                         </div>
 
                         <div class="news-block-body">
-                            <p>Ikan Tongkol, also known as small tuna, is a popular saltwater fish in Indonesia.<a
-                                    href="{{ url('post1') }}" target="_blank">klil me</a> for more information.</p>
+                            <p>From Local to Global: The Success Story of PT Maju Lokal Nusantara in
+                                Developing Business and Selling Seafood Products Internationally,
+                                <a href="{{ url('post3') }}" target="_blank">klil me</a> for more information.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -145,12 +147,47 @@
 
                 <h5 class="mt-5 mb-3">Recent news</h5>
                 <div class="news-block news-block-two-col d-flex mt-4">
-                    <div class="news-block-two-col-image-wrap">
+
+
+                    <div class="news-block-two-col-info">
+                        <div class="news-block-title mb-2">
+                            <h6><a href="{{ url('post4') }}" class="news-block-title-link">Lobster: Delicious, Rare,
+                                    and Beneficial</a></h6>
+                        </div>
+
+                        <div class="news-block-date">
+                            <p>
+                                <i class="bi-calendar4 custom-icon me-1"></i>
+                                February 20, 2024
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-block news-block-two-col d-flex mt-4">
+
+                    <div class="news-block-two-col-info">
+                        <div class="news-block-title mb-2">
+                            <h6><a href="{{ url('post1') }}" class="news-block-title-link">Tuna Healty Benefits of
+                                    Tuna</a></h6>
+                        </div>
+
+                        <div class="news-block-date">
+                            <p>
+                                <i class="bi-calendar4 custom-icon me-1"></i>
+                                January 26, 2024
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-block news-block-two-col d-flex mt-4">
+                    {{-- <div class="news-block-two-col-image-wrap">
                         <a href="{{ url('post2') }}">
                             <img src="{{ asset('assets/images/Products/vaname_1.png') }}" class="news-image img-fluid"
                                 alt="">
                         </a>
-                    </div>
+                    </div> --}}
 
                     <div class="news-block-two-col-info">
                         <div class="news-block-title mb-2">
@@ -167,6 +204,7 @@
                     </div>
                 </div>
             </div>
+
 
         </div>
 

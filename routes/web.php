@@ -55,6 +55,12 @@ Route::get('/post1', function () {
 Route::get('/post2', function () {
     return view('allnews.post2');
 });
-Route::get('/donate', function () {
-    return view('donate');
+Route::get('/post3', function () {
+    return view('allnews.post3');
 });
+Route::get('/post4', function () {
+    return view('allnews.post4');
+});
+// Route::get('/donate', function () {
+//     return view('donate');
+// });
